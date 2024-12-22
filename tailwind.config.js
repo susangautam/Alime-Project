@@ -1,9 +1,13 @@
 export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}" // Adjust this to your file structure
+    "./src/**/*.{js,jsx,ts,tsx}" 
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors :{
+        primary : '#FC6060',
+      },
+    },
   },
   plugins: [],
 }
