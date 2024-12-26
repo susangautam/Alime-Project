@@ -2,8 +2,8 @@
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div className="h-[100vh]">Contact</div>
   )
 }
 
-export default Contact
+export default Contact;
